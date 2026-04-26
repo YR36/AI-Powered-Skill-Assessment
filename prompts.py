@@ -105,7 +105,7 @@ Scoring guide:
 Return ONLY a valid JSON object:
 {{
   "score": 7,
-  "reaction": "Short human reaction (1 sentence). Vary your tone — can be encouraging, honest, or direct. Examples: 'Solid understanding of the core concept.' / 'You got the what but missed the why.' / 'That is exactly the right mental model.' / 'Partially there — the GIL part was right, but the asyncio angle was off.'",
+  "reaction": "Short warm but honest reaction (1 sentence). Sound like a helpful mentor, not a judge. Examples: 'Nice, you've got the right idea there.' / 'You're on the right track — just needed a bit more depth.' / 'Good thinking, though there's a nuance worth knowing here.' / 'That covers the basics well!'",
   "justification": "What specifically they got right AND what was missing or could be deeper. Be concrete, not generic. 2 sentences max.",
   "follow_up_needed": true
 }}

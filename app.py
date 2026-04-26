@@ -339,7 +339,7 @@ elif st.session_state.stage == "assessing":
             })
 
             emoji = score_emoji(score)
-            feedback = f"{reaction}\n\n{emoji} **{score}/10** — {justification}"
+            feedback = f"{reaction}\n\n{justification}"
             add_message("assistant", feedback)
             st.session_state.waiting_for_answer = False
             st.rerun()
